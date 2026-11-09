@@ -1,1 +1,13 @@
 .env
+
+# Agent and browser-automation artefacts (may hold secrets or session data)
+.claude/settings.local.json
+.claude/settings.local.json.*
+.claude/worktrees/
+CLAUDE.local.md
+.playwright-mcp/
+playwright-report/
+test-results/
+blob-report/
+playwright/.auth/
+.auth/
